@@ -84,13 +84,15 @@ a {
 }
 
 
-/* Pop-up information */
+/* Pop-up information 
 .popup_box_header {
     font-size: 16px;
 }
+*/
 
 hr {
-	margin: 5px 0 5px 0;
+    margin: 2px;
+    padding: 2px;
 }
 
 

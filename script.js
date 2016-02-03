@@ -23,7 +23,12 @@ function addTeam(teamName) {
                 //},
 
                 onEachFeature: function(feature, layer) {
-                    layer.bindPopup(feature.properties.players);
+                    //popup = "<h5>" + feature.properties.placeName + "<\/h5><br><p>";
+                    popup = "<strong>" + feature.properties.placeName + "</strong><br><hr/>";
+                    //popup += "<hr>";
+                    popup += feature.properties.players
+
+                    layer.bindPopup(popup);
                 },
 
                 pointToLayer: function(feature, latlng) {
