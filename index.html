@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapping Vermont: NHL Birthplaces</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery-ui.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" />
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body>  
+	<div id="sidebar">
+		<div class="sidebar_header">
+			<h3>Vermont E911 <br>Site Locator</h3>
+		</div>
+
+		<div class="sidebar_content">
+			 Team Name:
+			 <input type="text" id="team" size=25 style="width: 90%;"><br>
+			 <br>
+			 Use the above search box to filter geocoded player birthplace data from <a href="http://neulion.com/" target="_blank">Neulion</a>.
+			 <br><br>
+			 For full documentation, check out the <a href=GitHub rep
+			 Thanks to <a href="http://vcgi.vermont.gov/" target="blank">VCGI</a> for providing the data, and to <a href="https://twitter.com/courieressig" target="blank">Chris Essig</a> for sharing a great application template.<br><br>
+			 Built by <a href="https://www.mappingvermont.org" target="blank">MappingVermont</a>.  
+    	</div>
+	</div>
+
+	<div id="map"></div>
+
+</body>
+</html>
